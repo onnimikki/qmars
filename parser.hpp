@@ -31,7 +31,10 @@ public:
         return w;
     }
 
-    Parser::Parser()
+     // error: ./parser.hpp:34:13: error: extra qualification on member 'Parser'
+    // Parser::Parser()
+
+    Parser()
     {
         str2sy["DAT"]=eDat;
         str2sy["NOP"]=eNop;

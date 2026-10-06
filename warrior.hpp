@@ -15,7 +15,7 @@ public:
     ulong tie;
     ulong lose;
 
-    Warrior::Warrior()
+    Warrior()  // was     Warrior::Warrior()
 	: start(0), win(0), tie(0), lose(0)
     {}
 };
