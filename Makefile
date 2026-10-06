@@ -3,7 +3,10 @@
 # $Id: Makefile,v 1.9 2002/03/09 15:30:20 martin Exp $
 
 CC      = g++      # compiler
-CCFLAGS = -O3 -fomit-frame-pointer
+
+CCFLAGS = -O3 -std=c++2b -fomit-frame-pointer
+#CCFLAGS = -O3 -std=c++20 -fomit-frame-pointer
+#CCFLAGS = -O3 -fomit-frame-pointer
 #CCFLAGS = -g  # compileflags
 LD      = g++  # linker
 
